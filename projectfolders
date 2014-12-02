@@ -16,7 +16,7 @@
 USAGE="projectfolders [projecttype]:\n\n\tprojecttypes: 'color', 'online', 'deliverables'"
 
 case "$1" in
-    color|col) mkdir -p ./COLOR/{ppro-conform,resolve_projects/_gallery-stills,resolve_renders/_cachefiles_,src_media/collected,ref-conform,xml/{00_collect,01_toResolve}};;
+    color|col) mkdir -p ./COLOR/{ppro-conform,gallery_stills,resolve_projects,resolve_renders/_cachefiles_,src_media/collected,ref-conform,xml/{00_collect,01_toResolve}};;
     online) mkdir -p ./ONLINE/{ppro-online,_selfcontained,audio/mixes};;
     deliverables|del) mkdir -p ./_DELIVERABLES/{approvals,broadcast,dvd/{disc_images,encore_dvd,encodes},audio_post,web/{youtube,vimeo,wmv}};;
     '') echo -e "\nusage: $USAGE\n";;
