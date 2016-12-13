@@ -12,5 +12,12 @@
 
 find . -type d -name "Adobe Premiere Pro Video Previews" -print
 find . -type d -name "Adobe Premiere Pro Audio Previews" -print
-find . -type d -name "Adobe Premiere Pro Preview Files" -print
+find . -type d -name "Adobe Premiere Pro Preview Files" -print 
+find . -type d -name "CacheClip" -print # DaVinci Resolve cache folders
+find . -type d -name "_Archived Items" -print # ChronoSync archive folders
+
+# delete cache files
+
+.cfa
+.pek
 
