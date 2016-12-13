@@ -1,0 +1,16 @@
+#!/usr/local/bin/bash
+#
+# cleanarchives
+#
+# Removes unnecessary & expendable render/cache files from folders.
+# Use this to trim down folders that are ready for archiving to LTO
+# or a backup drive
+#
+
+
+# delete folders
+
+find . -type d -name "Adobe Premiere Pro Video Previews" -print
+find . -type d -name "Adobe Premiere Pro Audio Previews" -print
+find . -type d -name "Adobe Premiere Pro Preview Files" -print
+
